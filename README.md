@@ -1,6 +1,10 @@
 # fastmem-vertex
 
-## Memory-Augmented LLM Chat Assistant (Anthropic Vertex API > Selected Model Sonnet 3.5 > local endpoint is Openai API compatible)
+## Memory-Augmented LLM Chat Assistant 
+
+- Anthropic Vertex API (Google Cloud)
+- Selected Model Sonnet 3.5
+- Local Openai API Endpoint
 
 This project is a FastAPI application that provides a chat interface for large language models (LLMs) like Anthropic or OpenAI. The key feature is its ability to augment the LLM's responses with relevant context retrieved from the conversation history using vector embeddings and the `llama-index` library.
 
